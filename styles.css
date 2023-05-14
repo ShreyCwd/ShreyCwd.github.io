@@ -1,0 +1,318 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family:'Poppins', 'sans-serif';
+
+}
+
+.hero {
+  background: #2c85eb;
+}
+
+.hero-container { 
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  align-items: center;
+  justify-content: center
+
+
+}
+
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0 2rem;
+  text-align: left;
+  align-items: left;
+}
+
+.column-left h1 {
+  margin-bottom: 1 rem;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+.column-left p {
+  padding-top: 4vh;
+  margin-bottom: 5 rem;
+  font-size: 1.5em;
+  line-height: 1.5;
+
+}
+
+.tictactoe {
+  padding: 7rem 5rem;
+  height: 100vh;
+  width: 25%;
+  background: #267ada;
+  color: #fff;
+  float:right;
+
+}
+
+.tictactoe:hover {
+  background-color: #1d5ba2;
+}
+
+.tictactoe-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.tictactoe-container p {
+  padding-top: 4vh;
+}
+
+.rhgm {
+  padding: 7rem 5rem;
+  height: 100vh;
+  width: 25%;
+  background: #267ada;
+  color: #fff;
+  float: right;
+
+}
+
+.rhgm:hover {
+  background-color: #1d5ba2;
+}
+
+.rhgm-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.rhgm-container p {
+  padding-top: 4vh;
+}
+
+
+.pma {
+  padding: 7rem 5rem;
+  height: 100vh;
+  width: 25%;
+  background: #267ada;
+  color: #fff;
+  float: right;
+
+
+}
+
+.pma:hover {
+  background-color: #1d5ba2;
+}
+
+.pma-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
+}
+
+.pma-container p {
+  padding-top: 4vh;
+}
+
+
+.dict {
+  padding: 7rem 5rem;
+  height: 100vh;
+  width: 25%;
+  background:#267ada;
+  color: #fff;
+  float: right;
+
+
+
+}
+
+.dict:hover {
+  background-color: #1d5ba2;
+}
+
+.dict-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+ 
+}
+
+.dict-container p {
+  padding-top: 4vh;
+}
+
+
+
+.thelab{ 
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  align-items: center;
+  justify-content: center;
+  border:#fff;
+  background: #2c85eb;
+
+
+
+}
+
+.thelab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0 2rem;
+  text-align: center;
+  align-items: left;
+}
+
+.thelab h1 {
+  margin-bottom: 1 rem;
+  font-size: 40px;
+  text-align: center;
+
+}
+
+.thelab p {
+  padding: 7vh 5vh;
+  margin-bottom: 5 rem;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+}
+
+
+
+.cwa{ 
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  height: 50vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  align-items: center;
+  justify-content: center;
+  border:#fff;
+  background:  #267ada;
+
+
+
+}
+
+.cwa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0 2rem;
+  text-align: center;
+  align-items: left;
+}
+
+.cwa h1 {
+  margin-bottom: 1 rem;
+  font-size: 34px;
+  text-align: center;
+
+}
+
+.cwa p {
+  padding: 7vh 5vh;
+  margin-bottom: 5 rem;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+}
+
+
+
+.cp{ 
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  height: 50vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  align-items: center;
+  justify-content: center;
+  border:#fff;
+  background: #2c85eb;
+
+
+
+}
+
+.cp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0 2rem;
+  text-align: center;
+  align-items: left;
+}
+
+.cp h1 {
+  margin-bottom: 1 rem;
+  font-size: 34px;
+  text-align: center;
+
+}
+
+.cp p {
+  padding: 7vh 5vh;
+  margin-bottom: 5 rem;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+}
+
+
+.debate{ 
+  display: flex;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+  padding: 3rem calc((100vw - 1300px) / 2);
+  align-items: center;
+  justify-content: center;
+  border:#fff;
+  background: #267ada;
+
+
+
+}
+
+.debate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+  padding: 0 2rem;
+  text-align: center;
+  align-items: left;
+}
+
+.debate h1 {
+  margin-bottom: 1 rem;
+  font-size: 34px;
+  text-align: center;
+
+}
+
+.debate p {
+  padding: 7vh 5vh;
+  margin-bottom: 5 rem;
+  font-size: 1.2em;
+  line-height: 1.5;
+
+}
+
+
